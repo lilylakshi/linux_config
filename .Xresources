@@ -16,7 +16,7 @@ rofi.yoffset:           0
 rofi.xoffset:           0
 rofi.width:             1366
 rofi.opacity:           90
-rofi.font:              SourceCodePro-Regular 12
+rofi.font:              sans-serif 12
 
 
 *cursorColor:                         #FFFF00
