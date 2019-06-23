@@ -107,7 +107,7 @@ bindsym $mod+a focus parent
 #bindsym $mod+d focus child
 
 # default workspaces
-assign [class="Chromium"] 2
+assign [class="Firefox"] 2
 assign [class="Nautilus"] 3
 assign [class="Thunar"] 3
 assign [class="Pcmanfm"] 3
@@ -115,6 +115,7 @@ assign [class="mpv"] 4
 assign [class="Slack"] 8
 assign [class="Telegram"] 9
 assign [class="ViberPC"] 9
+assign [class="Spotify"] 9
 
 # switch to workspace
 bindsym $mod+1 workspace 1
@@ -210,3 +211,5 @@ bindsym XF86MonBrightnessDown exec sudo /home/lily/.bright_down # decrease scree
 
 # Startup applications
 exec feh --bg-fill /home/lily/723A6DFE3A6DC029/Wallpapers/Set\ 2/wallhaven-454779.jpg
+exec xrandr --output DP-1 --primary --mode 1360x768 --pos 0x0 --rotate normal --output HDMI-1 --off --output eDP-1 --off --output HDMI-2 --off 
+exec compton --backend glx
